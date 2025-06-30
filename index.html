@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Racing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="gameArea">
+  <div class="car" id="playerCar"></div>
+</div>
+
+<div id="score">Score: 0</div>
+
+<div id="gameOverScreen">
+  💥 Game Over!<br><br>
+  Score: <span id="finalScore">0</span><br><br>
+  <button onclick="location.reload()">Restart</button>
+</div>
+
+
+
+<!-- Mobile Controls for Touch Devices -->
+<div id="controls">
+  <button onclick="moveLeft()">⬅️</button>
+  <button onclick="moveRight()">➡️</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
